@@ -1,0 +1,6 @@
+framework module HaidoraPaging {
+  umbrella header "Pods-HaidoraPaging_Example-HaidoraPaging-umbrella.h"
+
+  export *
+  module * { export * }
+}

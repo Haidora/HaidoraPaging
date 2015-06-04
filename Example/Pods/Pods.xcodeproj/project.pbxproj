@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005BFB53B157D125424FA32A /* Pods-HaidoraPaging_Example-HaidoraPaging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90FCFDD01B0AF7A673C053 /* Pods-HaidoraPaging_Example-HaidoraPaging-dummy.m */; };
+		01CE700C775F1605D08F1F55 /* HDPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D260801471DB5B39D1C34 /* HDPaging.m */; };
+		17CDFE76A1C8F27649524640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8773734A6172B54BE963238 /* Foundation.framework */; };
+		1C59E703803D200837F79807 /* NSObject+HDPaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBA02F1467E378BDA8BDB92 /* NSObject+HDPaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB812EF0A9A88157A94000D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB76CCCE1EDC6102006AEB41 /* UIKit.framework */; };
+		28E61630094F37E60CAE4DAC /* NSObject+HDPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E9BD3FCBEE7E4BF0CE073 /* NSObject+HDPaging.m */; };
+		29D349142B45FB4D6AF11B1C /* Pods-HaidoraPaging_Example-HaidoraPaging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 056127694D59DCF831FC9243 /* Pods-HaidoraPaging_Example-HaidoraPaging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		512978FD4689AE7A30AE001E /* Pods-HaidoraPaging_Tests-HaidoraPaging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27693B0726C194A16B27B2AB /* Pods-HaidoraPaging_Tests-HaidoraPaging-dummy.m */; };
+		5C24FDE1929164C65A2505D0 /* HDPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = D85D260801471DB5B39D1C34 /* HDPaging.m */; };
+		5D70B620A446C8CD4EB3DA89 /* HDPaging.h in Headers */ = {isa = PBXBuildFile; fileRef = DB894BC8861B7009847F2551 /* HDPaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		807DB130C7F57DDF6E17C46B /* Pods-HaidoraPaging_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFD38AEA099C9C21F5EBBA5 /* Pods-HaidoraPaging_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A5A70525D0E93746AB07619 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB76CCCE1EDC6102006AEB41 /* UIKit.framework */; };
+		8D0DB7129D99F3C165FD3048 /* Pods-HaidoraPaging_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB36C4DDF49B9B0896C0F16 /* Pods-HaidoraPaging_Tests-dummy.m */; };
+		93E9C0A1EC1E711B348E630A /* Pods-HaidoraPaging_Tests-HaidoraPaging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20952A45D7B13AEE6E2AD401 /* Pods-HaidoraPaging_Tests-HaidoraPaging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9544E90D01DC763E3BAC0A75 /* HDPaging.h in Headers */ = {isa = PBXBuildFile; fileRef = DB894BC8861B7009847F2551 /* HDPaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A711C0B68D72CB6CAB22CA5A /* Pods-HaidoraPaging_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBAD95CFA69E40EF156EB3 /* Pods-HaidoraPaging_Example-dummy.m */; };
+		ABF3E4D48E65D67E88BEA296 /* NSObject+HDPaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBA02F1467E378BDA8BDB92 /* NSObject+HDPaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B646EFBA706D9481AB55ADFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8773734A6172B54BE963238 /* Foundation.framework */; };
+		C38B0041B0029A8D9F13AFE8 /* HaidoraPaging.h in Headers */ = {isa = PBXBuildFile; fileRef = A0702B6B549D34E5264655F4 /* HaidoraPaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E803F8EFE88894E8B8CD8DD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8773734A6172B54BE963238 /* Foundation.framework */; };
+		E8431286FBBA88E053A77730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8773734A6172B54BE963238 /* Foundation.framework */; };
+		F2DF30C338F3477DC369A643 /* Pods-HaidoraPaging_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8C9C906C205A690CEBFBF1 /* Pods-HaidoraPaging_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6FADF9A0068BC13B731143 /* HaidoraPaging.h in Headers */ = {isa = PBXBuildFile; fileRef = A0702B6B549D34E5264655F4 /* HaidoraPaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFB18968C91B768A5102B89A /* NSObject+HDPaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E9BD3FCBEE7E4BF0CE073 /* NSObject+HDPaging.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D40804390831E3EDCA0EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144493E3D7299792920BF94D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 354F35DBBF72B735C286583F;
+			remoteInfo = "Pods-HaidoraPaging_Tests-HaidoraPaging";
+		};
+		2972F1D3487071261017451F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144493E3D7299792920BF94D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248C186A610B817DCF824AC0;
+			remoteInfo = "Pods-HaidoraPaging_Example-HaidoraPaging";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00462E08A587DC715340938A /* Pods_HaidoraPaging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraPaging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		056127694D59DCF831FC9243 /* Pods-HaidoraPaging_Example-HaidoraPaging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraPaging_Example-HaidoraPaging-umbrella.h"; sourceTree = "<group>"; };
+		0707F60FA9762EAF4C6E13B1 /* Pods-HaidoraPaging_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraPaging_Example-resources.sh"; sourceTree = "<group>"; };
+		077D11B9D94255B8333FD60B /* Pods-HaidoraPaging_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaidoraPaging_Example.modulemap"; sourceTree = "<group>"; };
+		1011EE49C57CADA3731BF6A5 /* Pods-HaidoraPaging_Example-HaidoraPaging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraPaging_Example-HaidoraPaging-prefix.pch"; sourceTree = "<group>"; };
+		14BD37B7075881666E9E74D3 /* Pods-HaidoraPaging_Tests-HaidoraPaging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-HaidoraPaging_Tests-HaidoraPaging-prefix.pch"; path = "../Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging-prefix.pch"; sourceTree = "<group>"; };
+		1A8EA0FC1DC83D006F4C2C33 /* Pods-HaidoraPaging_Tests-HaidoraPaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraPaging_Tests-HaidoraPaging.xcconfig"; path = "../Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging.xcconfig"; sourceTree = "<group>"; };
+		1CCA638CC7605B3122F807AD /* Pods-HaidoraPaging_Tests-HaidoraPaging-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaidoraPaging_Tests-HaidoraPaging-Private.xcconfig"; path = "../Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging-Private.xcconfig"; sourceTree = "<group>"; };
+		1F54B385768ADAE8E2AA49E3 /* Pods-HaidoraPaging_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraPaging_Example-frameworks.sh"; sourceTree = "<group>"; };
+		20952A45D7B13AEE6E2AD401 /* Pods-HaidoraPaging_Tests-HaidoraPaging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-HaidoraPaging_Tests-HaidoraPaging-umbrella.h"; path = "../Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging-umbrella.h"; sourceTree = "<group>"; };
+		27693B0726C194A16B27B2AB /* Pods-HaidoraPaging_Tests-HaidoraPaging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-HaidoraPaging_Tests-HaidoraPaging-dummy.m"; path = "../Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging-dummy.m"; sourceTree = "<group>"; };
+		2C7E88C777F7781B29EAF53E /* Pods-HaidoraPaging_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraPaging_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CCB60A7B0BCF964CB52059E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F446FD2A1C8C546DFA7BAB1 /* Pods-HaidoraPaging_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaidoraPaging_Tests.modulemap"; sourceTree = "<group>"; };
+		36E131842647EC36FC8B574E /* Pods-HaidoraPaging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraPaging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FBA02F1467E378BDA8BDB92 /* NSObject+HDPaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+HDPaging.h"; sourceTree = "<group>"; };
+		423CBF2AFF7D475ED0DC3933 /* Pods-HaidoraPaging_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraPaging_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BD97E1BD9B86E659649CD50 /* Pods-HaidoraPaging_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraPaging_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4DD98A7DC497C6CBD374DBA3 /* Pods-HaidoraPaging_Tests-HaidoraPaging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-HaidoraPaging_Tests-HaidoraPaging.modulemap"; path = "../Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging.modulemap"; sourceTree = "<group>"; };
+		50B199E2F9E91ED6D1301BB2 /* Pods-HaidoraPaging_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraPaging_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54BD28D06DFE008F0BE9E964 /* Pods_HaidoraPaging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaidoraPaging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BBAD95CFA69E40EF156EB3 /* Pods-HaidoraPaging_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraPaging_Example-dummy.m"; sourceTree = "<group>"; };
+		57D38EBE836C2528FC4CE6BE /* Pods-HaidoraPaging_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraPaging_Example-environment.h"; sourceTree = "<group>"; };
+		605BF57300356313FBFE1404 /* Pods-HaidoraPaging_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraPaging_Tests-resources.sh"; sourceTree = "<group>"; };
+		62B3038F51F0E7B7342C4FB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-HaidoraPaging_Tests-HaidoraPaging/Info.plist"; sourceTree = "<group>"; };
+		642E9BD3FCBEE7E4BF0CE073 /* NSObject+HDPaging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HDPaging.m"; sourceTree = "<group>"; };
+		8E4C4EFD504774F197A16883 /* Pods-HaidoraPaging_Example-HaidoraPaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraPaging_Example-HaidoraPaging.xcconfig"; sourceTree = "<group>"; };
+		96E76F909063C2C430B298EB /* Pods-HaidoraPaging_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraPaging_Tests-environment.h"; sourceTree = "<group>"; };
+		9CFDF0B0936B0390CFA4FDE7 /* Pods-HaidoraPaging_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraPaging_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A0702B6B549D34E5264655F4 /* HaidoraPaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraPaging.h; sourceTree = "<group>"; };
+		A1CF71F6CB2F41D6708F4098 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD90FCFDD01B0AF7A673C053 /* Pods-HaidoraPaging_Example-HaidoraPaging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraPaging_Example-HaidoraPaging-dummy.m"; sourceTree = "<group>"; };
+		B81326A127F6D17B166576E4 /* Pods-HaidoraPaging_Example-HaidoraPaging-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraPaging_Example-HaidoraPaging-Private.xcconfig"; sourceTree = "<group>"; };
+		BB76CCCE1EDC6102006AEB41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC4D083EE29584B8371422EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF350F0B83043FC05F8D813F /* HaidoraPaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaidoraPaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBC91A187D1891A39CC0BA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85D260801471DB5B39D1C34 /* HDPaging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDPaging.m; sourceTree = "<group>"; };
+		DB894BC8861B7009847F2551 /* HDPaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDPaging.h; sourceTree = "<group>"; };
+		DE8C9C906C205A690CEBFBF1 /* Pods-HaidoraPaging_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraPaging_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EDE378B15D8C4B96D16164CD /* Pods-HaidoraPaging_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraPaging_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEF9970967FAD93D436DF217 /* HaidoraPaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HaidoraPaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F356BF3423A85BF17813FB80 /* Pods-HaidoraPaging_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraPaging_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8773734A6172B54BE963238 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F8E200F8A741EF3AF1721972 /* Pods-HaidoraPaging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraPaging_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FAFD38AEA099C9C21F5EBBA5 /* Pods-HaidoraPaging_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HaidoraPaging_Example-umbrella.h"; sourceTree = "<group>"; };
+		FDB36C4DDF49B9B0896C0F16 /* Pods-HaidoraPaging_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraPaging_Tests-dummy.m"; sourceTree = "<group>"; };
+		FE010B69B0BC10EFB0830E1B /* Pods-HaidoraPaging_Example-HaidoraPaging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HaidoraPaging_Example-HaidoraPaging.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37930148C6C8DD762F9386A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B646EFBA706D9481AB55ADFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F5236BD4A8BD31CF57AE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E803F8EFE88894E8B8CD8DD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B886552465ADD8530B7A5259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8431286FBBA88E053A77730 /* Foundation.framework in Frameworks */,
+				1CB812EF0A9A88157A94000D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D254B9FB9076CD71D6B6B441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CDFE76A1C8F27649524640 /* Foundation.framework in Frameworks */,
+				8A5A70525D0E93746AB07619 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FDA9556A508849D14D17CA6 /* Pods-HaidoraPaging_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC91A187D1891A39CC0BA6 /* Info.plist */,
+				077D11B9D94255B8333FD60B /* Pods-HaidoraPaging_Example.modulemap */,
+				EDE378B15D8C4B96D16164CD /* Pods-HaidoraPaging_Example-acknowledgements.markdown */,
+				F356BF3423A85BF17813FB80 /* Pods-HaidoraPaging_Example-acknowledgements.plist */,
+				57BBAD95CFA69E40EF156EB3 /* Pods-HaidoraPaging_Example-dummy.m */,
+				57D38EBE836C2528FC4CE6BE /* Pods-HaidoraPaging_Example-environment.h */,
+				1F54B385768ADAE8E2AA49E3 /* Pods-HaidoraPaging_Example-frameworks.sh */,
+				0707F60FA9762EAF4C6E13B1 /* Pods-HaidoraPaging_Example-resources.sh */,
+				FAFD38AEA099C9C21F5EBBA5 /* Pods-HaidoraPaging_Example-umbrella.h */,
+				50B199E2F9E91ED6D1301BB2 /* Pods-HaidoraPaging_Example.debug.xcconfig */,
+				9CFDF0B0936B0390CFA4FDE7 /* Pods-HaidoraPaging_Example.release.xcconfig */,
+			);
+			name = "Pods-HaidoraPaging_Example";
+			path = "Target Support Files/Pods-HaidoraPaging_Example";
+			sourceTree = "<group>";
+		};
+		15E29937060BCB5A75F6FDEB = {
+			isa = PBXGroup;
+			children = (
+				A1CF71F6CB2F41D6708F4098 /* Podfile */,
+				68EC93FC3B4E57915E1B3202 /* Development Pods */,
+				8982B71AD8016567D5E83E6A /* Frameworks */,
+				95B50AFD8004DF22F0B3D5E9 /* Products */,
+				967455B473541AA45BEBEFF9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4BD2F45B2AF82744F2366408 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB60A7B0BCF964CB52059E /* Info.plist */,
+				62B3038F51F0E7B7342C4FB8 /* Info.plist */,
+				FE010B69B0BC10EFB0830E1B /* Pods-HaidoraPaging_Example-HaidoraPaging.modulemap */,
+				8E4C4EFD504774F197A16883 /* Pods-HaidoraPaging_Example-HaidoraPaging.xcconfig */,
+				B81326A127F6D17B166576E4 /* Pods-HaidoraPaging_Example-HaidoraPaging-Private.xcconfig */,
+				AD90FCFDD01B0AF7A673C053 /* Pods-HaidoraPaging_Example-HaidoraPaging-dummy.m */,
+				1011EE49C57CADA3731BF6A5 /* Pods-HaidoraPaging_Example-HaidoraPaging-prefix.pch */,
+				056127694D59DCF831FC9243 /* Pods-HaidoraPaging_Example-HaidoraPaging-umbrella.h */,
+				4DD98A7DC497C6CBD374DBA3 /* Pods-HaidoraPaging_Tests-HaidoraPaging.modulemap */,
+				1A8EA0FC1DC83D006F4C2C33 /* Pods-HaidoraPaging_Tests-HaidoraPaging.xcconfig */,
+				1CCA638CC7605B3122F807AD /* Pods-HaidoraPaging_Tests-HaidoraPaging-Private.xcconfig */,
+				27693B0726C194A16B27B2AB /* Pods-HaidoraPaging_Tests-HaidoraPaging-dummy.m */,
+				14BD37B7075881666E9E74D3 /* Pods-HaidoraPaging_Tests-HaidoraPaging-prefix.pch */,
+				20952A45D7B13AEE6E2AD401 /* Pods-HaidoraPaging_Tests-HaidoraPaging-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-HaidoraPaging_Example-HaidoraPaging";
+			sourceTree = "<group>";
+		};
+		68EC93FC3B4E57915E1B3202 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69C48D5FA2687C6F6B1FDDF5 /* HaidoraPaging */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		69C48D5FA2687C6F6B1FDDF5 /* HaidoraPaging */ = {
+			isa = PBXGroup;
+			children = (
+				D2BA578FB6056E16B1B68670 /* Pod */,
+				4BD2F45B2AF82744F2366408 /* Support Files */,
+			);
+			name = HaidoraPaging;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6F34EDB21FAC6D72EAAE329E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DB894BC8861B7009847F2551 /* HDPaging.h */,
+				D85D260801471DB5B39D1C34 /* HDPaging.m */,
+				A0702B6B549D34E5264655F4 /* HaidoraPaging.h */,
+				3FBA02F1467E378BDA8BDB92 /* NSObject+HDPaging.h */,
+				642E9BD3FCBEE7E4BF0CE073 /* NSObject+HDPaging.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		802AEDD95A9F0DFF2F447D7B /* Pods-HaidoraPaging_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC4D083EE29584B8371422EE /* Info.plist */,
+				2F446FD2A1C8C546DFA7BAB1 /* Pods-HaidoraPaging_Tests.modulemap */,
+				423CBF2AFF7D475ED0DC3933 /* Pods-HaidoraPaging_Tests-acknowledgements.markdown */,
+				2C7E88C777F7781B29EAF53E /* Pods-HaidoraPaging_Tests-acknowledgements.plist */,
+				FDB36C4DDF49B9B0896C0F16 /* Pods-HaidoraPaging_Tests-dummy.m */,
+				96E76F909063C2C430B298EB /* Pods-HaidoraPaging_Tests-environment.h */,
+				4BD97E1BD9B86E659649CD50 /* Pods-HaidoraPaging_Tests-frameworks.sh */,
+				605BF57300356313FBFE1404 /* Pods-HaidoraPaging_Tests-resources.sh */,
+				DE8C9C906C205A690CEBFBF1 /* Pods-HaidoraPaging_Tests-umbrella.h */,
+				36E131842647EC36FC8B574E /* Pods-HaidoraPaging_Tests.debug.xcconfig */,
+				F8E200F8A741EF3AF1721972 /* Pods-HaidoraPaging_Tests.release.xcconfig */,
+			);
+			name = "Pods-HaidoraPaging_Tests";
+			path = "Target Support Files/Pods-HaidoraPaging_Tests";
+			sourceTree = "<group>";
+		};
+		8982B71AD8016567D5E83E6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A235CB8B1242BC13FDC9653B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95B50AFD8004DF22F0B3D5E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9970967FAD93D436DF217 /* HaidoraPaging.framework */,
+				BF350F0B83043FC05F8D813F /* HaidoraPaging.framework */,
+				00462E08A587DC715340938A /* Pods_HaidoraPaging_Example.framework */,
+				54BD28D06DFE008F0BE9E964 /* Pods_HaidoraPaging_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967455B473541AA45BEBEFF9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FDA9556A508849D14D17CA6 /* Pods-HaidoraPaging_Example */,
+				802AEDD95A9F0DFF2F447D7B /* Pods-HaidoraPaging_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A235CB8B1242BC13FDC9653B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8773734A6172B54BE963238 /* Foundation.framework */,
+				BB76CCCE1EDC6102006AEB41 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D2BA578FB6056E16B1B68670 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6F34EDB21FAC6D72EAAE329E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C4B23344E2D2708AE01039C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DF30C338F3477DC369A643 /* Pods-HaidoraPaging_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B648AC1B6BBC258E960BAD14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807DB130C7F57DDF6E17C46B /* Pods-HaidoraPaging_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B73ABFB7B2EDD3296BD382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D70B620A446C8CD4EB3DA89 /* HDPaging.h in Headers */,
+				C38B0041B0029A8D9F13AFE8 /* HaidoraPaging.h in Headers */,
+				ABF3E4D48E65D67E88BEA296 /* NSObject+HDPaging.h in Headers */,
+				29D349142B45FB4D6AF11B1C /* Pods-HaidoraPaging_Example-HaidoraPaging-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB506CBAEDC7E7CF0BCAC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9544E90D01DC763E3BAC0A75 /* HDPaging.h in Headers */,
+				FA6FADF9A0068BC13B731143 /* HaidoraPaging.h in Headers */,
+				1C59E703803D200837F79807 /* NSObject+HDPaging.h in Headers */,
+				93E9C0A1EC1E711B348E630A /* Pods-HaidoraPaging_Tests-HaidoraPaging-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		248C186A610B817DCF824AC0 /* Pods-HaidoraPaging_Example-HaidoraPaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D60F300F79FBE222CE3DEEE /* Build configuration list for PBXNativeTarget "Pods-HaidoraPaging_Example-HaidoraPaging" */;
+			buildPhases = (
+				51D052623DFE4DBDA9F967DE /* Sources */,
+				D254B9FB9076CD71D6B6B441 /* Frameworks */,
+				B6B73ABFB7B2EDD3296BD382 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HaidoraPaging_Example-HaidoraPaging";
+			productName = "Pods-HaidoraPaging_Example-HaidoraPaging";
+			productReference = EEF9970967FAD93D436DF217 /* HaidoraPaging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		354F35DBBF72B735C286583F /* Pods-HaidoraPaging_Tests-HaidoraPaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D680E81C18F31DE181AD9B09 /* Build configuration list for PBXNativeTarget "Pods-HaidoraPaging_Tests-HaidoraPaging" */;
+			buildPhases = (
+				AFCE96CB56C9B5B5CAADE6B6 /* Sources */,
+				B886552465ADD8530B7A5259 /* Frameworks */,
+				FAFB506CBAEDC7E7CF0BCAC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HaidoraPaging_Tests-HaidoraPaging";
+			productName = "Pods-HaidoraPaging_Tests-HaidoraPaging";
+			productReference = BF350F0B83043FC05F8D813F /* HaidoraPaging.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		726C9279BAA0293CDD5E1462 /* Pods-HaidoraPaging_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE91C187D17B3054B962DEC5 /* Build configuration list for PBXNativeTarget "Pods-HaidoraPaging_Tests" */;
+			buildPhases = (
+				CCE8835E062D77B98BAB01C5 /* Sources */,
+				B5F5236BD4A8BD31CF57AE5A /* Frameworks */,
+				2C4B23344E2D2708AE01039C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C71B9F81AC821430EA5E6A /* PBXTargetDependency */,
+			);
+			name = "Pods-HaidoraPaging_Tests";
+			productName = "Pods-HaidoraPaging_Tests";
+			productReference = 54BD28D06DFE008F0BE9E964 /* Pods_HaidoraPaging_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F49E7EB39D4C0AC607CFEA9E /* Pods-HaidoraPaging_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA0E3567C6642A0CAC0404D /* Build configuration list for PBXNativeTarget "Pods-HaidoraPaging_Example" */;
+			buildPhases = (
+				4E478E9E54DFE2CB1C22D6E2 /* Sources */,
+				37930148C6C8DD762F9386A2 /* Frameworks */,
+				B648AC1B6BBC258E960BAD14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65FF0662BD07943D97327B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-HaidoraPaging_Example";
+			productName = "Pods-HaidoraPaging_Example";
+			productReference = 00462E08A587DC715340938A /* Pods_HaidoraPaging_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		144493E3D7299792920BF94D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 48C96B787BF7571848F83F37 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15E29937060BCB5A75F6FDEB;
+			productRefGroup = 95B50AFD8004DF22F0B3D5E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49E7EB39D4C0AC607CFEA9E /* Pods-HaidoraPaging_Example */,
+				248C186A610B817DCF824AC0 /* Pods-HaidoraPaging_Example-HaidoraPaging */,
+				726C9279BAA0293CDD5E1462 /* Pods-HaidoraPaging_Tests */,
+				354F35DBBF72B735C286583F /* Pods-HaidoraPaging_Tests-HaidoraPaging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E478E9E54DFE2CB1C22D6E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711C0B68D72CB6CAB22CA5A /* Pods-HaidoraPaging_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D052623DFE4DBDA9F967DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CE700C775F1605D08F1F55 /* HDPaging.m in Sources */,
+				28E61630094F37E60CAE4DAC /* NSObject+HDPaging.m in Sources */,
+				005BFB53B157D125424FA32A /* Pods-HaidoraPaging_Example-HaidoraPaging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCE96CB56C9B5B5CAADE6B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C24FDE1929164C65A2505D0 /* HDPaging.m in Sources */,
+				FFB18968C91B768A5102B89A /* NSObject+HDPaging.m in Sources */,
+				512978FD4689AE7A30AE001E /* Pods-HaidoraPaging_Tests-HaidoraPaging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE8835E062D77B98BAB01C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0DB7129D99F3C165FD3048 /* Pods-HaidoraPaging_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C71B9F81AC821430EA5E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HaidoraPaging_Tests-HaidoraPaging";
+			target = 354F35DBBF72B735C286583F /* Pods-HaidoraPaging_Tests-HaidoraPaging */;
+			targetProxy = 24D40804390831E3EDCA0EA2 /* PBXContainerItemProxy */;
+		};
+		D65FF0662BD07943D97327B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HaidoraPaging_Example-HaidoraPaging";
+			target = 248C186A610B817DCF824AC0 /* Pods-HaidoraPaging_Example-HaidoraPaging */;
+			targetProxy = 2972F1D3487071261017451F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F47C97ED180F23ED7F529EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E200F8A741EF3AF1721972 /* Pods-HaidoraPaging_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraPaging_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraPaging_Tests/Pods-HaidoraPaging_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HaidoraPaging_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C0A87EB7B9F76EF169D983F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFDF0B0936B0390CFA4FDE7 /* Pods-HaidoraPaging_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraPaging_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraPaging_Example/Pods-HaidoraPaging_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HaidoraPaging_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CA7A7EFBDC387193F304FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B199E2F9E91ED6D1301BB2 /* Pods-HaidoraPaging_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraPaging_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraPaging_Example/Pods-HaidoraPaging_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HaidoraPaging_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		935BE6CCC98B176C171CA53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCA638CC7605B3122F807AD /* Pods-HaidoraPaging_Tests-HaidoraPaging-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraPaging_Tests-HaidoraPaging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HaidoraPaging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C134172F2D55235CF767E2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCA638CC7605B3122F807AD /* Pods-HaidoraPaging_Tests-HaidoraPaging-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraPaging_Tests-HaidoraPaging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraPaging_Tests-HaidoraPaging/Pods-HaidoraPaging_Tests-HaidoraPaging.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HaidoraPaging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C28AD848F2BA3ABBFACB0842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81326A127F6D17B166576E4 /* Pods-HaidoraPaging_Example-HaidoraPaging-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraPaging_Example-HaidoraPaging/Pods-HaidoraPaging_Example-HaidoraPaging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraPaging_Example-HaidoraPaging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraPaging_Example-HaidoraPaging/Pods-HaidoraPaging_Example-HaidoraPaging.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HaidoraPaging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8EBFB066C79137183C6D08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D706624B6B5FC42538AE2F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81326A127F6D17B166576E4 /* Pods-HaidoraPaging_Example-HaidoraPaging-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HaidoraPaging_Example-HaidoraPaging/Pods-HaidoraPaging_Example-HaidoraPaging-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraPaging_Example-HaidoraPaging/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraPaging_Example-HaidoraPaging/Pods-HaidoraPaging_Example-HaidoraPaging.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HaidoraPaging;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEBF013E3C5A0BFA5396994A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EBB7BE084382F14B6B72F9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E131842647EC36FC8B574E /* Pods-HaidoraPaging_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HaidoraPaging_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HaidoraPaging_Tests/Pods-HaidoraPaging_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HaidoraPaging_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D60F300F79FBE222CE3DEEE /* Build configuration list for PBXNativeTarget "Pods-HaidoraPaging_Example-HaidoraPaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D706624B6B5FC42538AE2F78 /* Debug */,
+				C28AD848F2BA3ABBFACB0842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C96B787BF7571848F83F37 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBF013E3C5A0BFA5396994A /* Debug */,
+				C8EBFB066C79137183C6D08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA0E3567C6642A0CAC0404D /* Build configuration list for PBXNativeTarget "Pods-HaidoraPaging_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA7A7EFBDC387193F304FA5 /* Debug */,
+				2C0A87EB7B9F76EF169D983F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D680E81C18F31DE181AD9B09 /* Build configuration list for PBXNativeTarget "Pods-HaidoraPaging_Tests-HaidoraPaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				935BE6CCC98B176C171CA53B /* Debug */,
+				C134172F2D55235CF767E2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE91C187D17B3054B962DEC5 /* Build configuration list for PBXNativeTarget "Pods-HaidoraPaging_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB7BE084382F14B6B72F9BF /* Debug */,
+				0F47C97ED180F23ED7F529EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 144493E3D7299792920BF94D /* Project object */;
+}

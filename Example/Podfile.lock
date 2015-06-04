@@ -1,0 +1,14 @@
+PODS:
+  - HaidoraPaging (0.1.0)
+
+DEPENDENCIES:
+  - HaidoraPaging (from `../`)
+
+EXTERNAL SOURCES:
+  HaidoraPaging:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HaidoraPaging: f97926c60bf6839cd3d158cbfd9c80f30cd71db3
+
+COCOAPODS: 0.37.2
